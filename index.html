@@ -48,7 +48,7 @@
   /* ===== 域分区（高度按文件数加权伸缩） ===== */
   .domain {
     background: #fff; border: 1px solid #E8EEF6; border-radius: 10px;
-    padding: 5px 9px 6px; margin-top: 5px;
+    padding: 5px 9px 6px; margin-top: 4px;
     display: flex; flex-direction: column;
   }
   .dom-head {
@@ -61,7 +61,7 @@
   .dom-desc { font-size: 9.5px; color: #8FA3BC; margin-left: auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   /* ===== 文件行（可随屏高伸缩，封顶 48px） ===== */
-  .frow { display: flex; align-items: center; gap: 6px; padding: 2px 1px; cursor: pointer; flex: 1 1 0; max-height: 48px; }
+  .frow { display: flex; align-items: center; gap: 6px; padding: 1.5px 1px; cursor: pointer; flex: 1 1 0; max-height: 48px; }
   .frow:active { background: #F7FAFD; }
   .badge {
     flex-shrink: 0; width: 26px; height: 17px; border-radius: 4px;
@@ -99,7 +99,7 @@
   <div class="hero-inner">
     <div>
       <h1>儿童乳品组 · 培训资料库</h1>
-      <p class="sub">按系统域分类 · 共 <b>10</b> 份资料 · <b>6</b> 个域</p>
+      <p class="sub">按系统域分类 · 共 <b>11</b> 份资料 · <b>6</b> 个域</p>
     </div>
     <div class="logo-box"><img src="assets/logo.png" alt="儿童乳品组"></div>
   </div>
@@ -149,11 +149,11 @@
           </div>
         </div>
   </section>
-  <section class="domain" id="dom-xiaoshou" style="flex-grow:1;flex-shrink:0">
+  <section class="domain" id="dom-xiaoshou" style="flex-grow:2;flex-shrink:0">
     <div class="dom-head">
       <svg class="dom-ic" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="background:#F59E0B1F"><polyline points="22 7 13.5 15.5 9.5 11.5 2 19"/><polyline points="16 7 22 7 22 13"/></svg>
       <span class="dom-title">销售管理域</span>
-      <span class="cnt">1</span>
+      <span class="cnt">2</span>
       <span class="dom-desc">销售过程管理、作业奖惩与结果追踪</span>
     </div>
     
@@ -165,6 +165,16 @@
           </div>
           <div class="frow-a">
             <button class="mini dl" data-href="files/%E5%84%BF%E7%AB%A5%E4%B9%B3%E5%93%81%E7%BB%84%E8%BF%87%E7%A8%8B%E6%8C%87%E6%A0%87%E8%80%83%E6%A0%B8%E8%A6%81%E6%B1%82.xlsx" style="background:#F59E0B">下载</button>
+          </div>
+        </div>
+        <div class="frow" data-name="目标设置&amp;人员汰换规则.xlsx 规定各层级组织与个人目标的制定、拆分、审核规则，及目标达成率考核与人员汰换特批标准。">
+          <span class="badge xls">XLS</span>
+          <div class="frow-t">
+            <div class="fname">目标设置&amp;人员汰换规则.xlsx</div>
+            <div class="fintro">规定各层级组织与个人目标的制定、拆分、审核规则，及目标达成率考核与人员汰换特批标准。<span class="fmeta"> · 674 KB · 10月22日更新</span></div>
+          </div>
+          <div class="frow-a">
+            <button class="mini dl" data-href="files/%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%26%E4%BA%BA%E5%91%98%E6%B1%B0%E6%8D%A2%E8%A7%84%E5%88%99.xlsx" style="background:#F59E0B">下载</button>
           </div>
         </div>
   </section>
@@ -266,7 +276,7 @@
         </div>
   </section></main>
   <div class="empty" id="empty">没有找到匹配的资料，换个关键词试试</div>
-  <footer>儿童乳品组内部培训资料 · 仅供内部学习使用 · 更新至 2026-10-21</footer>
+  <footer>儿童乳品组内部培训资料 · 仅供内部学习使用 · 更新至 2026-10-22</footer>
 </div>
 
 <script>
