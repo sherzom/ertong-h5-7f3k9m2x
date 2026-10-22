@@ -21,7 +21,7 @@
   /* ===== 头部（紧凑） ===== */
   .hero {
     background: linear-gradient(135deg, #4AA3FF 0%, #1C6FDB 70%);
-    padding: calc(8px + env(safe-area-inset-top)) 14px 8px;
+    padding: calc(6px + env(safe-area-inset-top)) 14px 6px;
     color: #fff; flex-shrink: 0;
   }
   .hero-inner { max-width: 560px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
@@ -32,7 +32,7 @@
   .logo-box img { display: block; height: 22px; width: auto; }
 
   /* ===== 搜索（紧凑） ===== */
-  .search { margin: 6px 0 5px; position: relative; flex-shrink: 0; }
+  .search { margin: 4px 0 3px; position: relative; flex-shrink: 0; }
   .search input {
     width: 100%; border: 1.5px solid #E2EAF4; background: #fff; border-radius: 9px;
     padding: 6px 10px 6px 28px; font-size: 12px; color: #1F2D3D; outline: none;
@@ -48,7 +48,7 @@
   /* ===== 域分区（高度按文件数加权伸缩） ===== */
   .domain {
     background: #fff; border: 1px solid #E8EEF6; border-radius: 10px;
-    padding: 5px 9px 6px; margin-top: 4px;
+    padding: 4px 8px 5px; margin-top: 3px;
     display: flex; flex-direction: column;
   }
   .dom-head {
@@ -91,7 +91,7 @@
 
   .empty { text-align: center; color: #8FA3BC; font-size: 12px; padding: 26px 0 16px; display: none; }
 
-  footer { text-align: center; color: #A3B1C2; font-size: 9.5px; margin-top: 4px; flex-shrink: 0; }
+  footer { text-align: center; color: #A3B1C2; font-size: 9px; margin-top: 2px; flex-shrink: 0; }
 </style>
 </head>
 <body>
@@ -99,7 +99,7 @@
   <div class="hero-inner">
     <div>
       <h1>儿童乳品组 · 培训资料库</h1>
-      <p class="sub">按系统域分类 · 共 <b>11</b> 份资料 · <b>6</b> 个域</p>
+      <p class="sub">按系统域分类 · 共 <b>12</b> 份资料 · <b>6</b> 个域</p>
     </div>
     <div class="logo-box"><img src="assets/logo.png" alt="儿童乳品组"></div>
   </div>
@@ -130,11 +130,11 @@
           </div>
         </div>
   </section>
-  <section class="domain" id="dom-renshi" style="flex-grow:1;flex-shrink:0">
+  <section class="domain" id="dom-renshi" style="flex-grow:2;flex-shrink:0">
     <div class="dom-head">
       <svg class="dom-ic" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="background:#8B5CF61F"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="10" r="2.2"/><path d="M8.5 14.8c-2 0-3.5 1-3.5 2.3V19h7v-1.9c0-1.3-1.5-2.3-3.5-2.3z"/><path d="M14.5 9h4M14.5 12.5h4"/></svg>
       <span class="dom-title">人事管理域</span>
-      <span class="cnt">1</span>
+      <span class="cnt">2</span>
       <span class="dom-desc">差旅、人事流程与办公管理</span>
     </div>
     
@@ -146,6 +146,16 @@
           </div>
           <div class="frow-a">
             <button class="mini dl" data-href="files/%E5%B7%AE%E6%97%85%EF%BC%88%E5%88%86%E8%B4%9D%E9%80%9A%EF%BC%89%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pptx" style="background:#8B5CF6">下载</button>
+          </div>
+        </div>
+        <div class="frow" data-name="儿童乳品组差旅标准.xlsx 按成熟度明确各岗位住宿、公共交通、油补、餐补与会议差旅的额度标准、上限及垫资报销与扣罚规则，并附各营业所额度明细。">
+          <span class="badge xls">XLS</span>
+          <div class="frow-t">
+            <div class="fname">儿童乳品组差旅标准.xlsx</div>
+            <div class="fintro">按成熟度明确各岗位住宿、公共交通、油补、餐补与会议差旅的额度标准、上限及垫资报销与扣罚规则，并附各营业所额度明细。<span class="fmeta"> · 45 KB · 10月22日更新</span></div>
+          </div>
+          <div class="frow-a">
+            <button class="mini dl" data-href="files/%E5%84%BF%E7%AB%A5%E4%B9%B3%E5%93%81%E7%BB%84%E5%B7%AE%E6%97%85%E6%A0%87%E5%87%86.xlsx" style="background:#8B5CF6">下载</button>
           </div>
         </div>
   </section>
